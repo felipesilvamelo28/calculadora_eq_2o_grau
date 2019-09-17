@@ -5,12 +5,8 @@ print("################################################")
 print("CALCULADORA DAS RAÍZES DE UMA EQUAÇÃO DO 2o GRAU")
 print("################################################")
 
-function = Function()
+function = Function(input("Digite o valor de A: "), input("Digite o valor de B: "), input("Digite o valor de C: "))
 calcula = Calcula()
-
-function.a = input("Digite o valor de A: ")
-function.b = input("Digite o valor de B: ")
-function.c = input("Digite o valor de C: ")
 
 
 calcula.calcula_delta(function)

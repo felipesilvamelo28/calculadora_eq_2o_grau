@@ -3,6 +3,11 @@ class Function:
     __b: int
     __c: int
 
+    def __init__(self, a, b, c):
+        self.a = a
+        self.b = b
+        self.c = c
+
     @property
     def a(self):
         return self.__a
